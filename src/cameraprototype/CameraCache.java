@@ -19,10 +19,6 @@ public class CameraCache {
         return (Camera) cachedCamera.clone();
     }
 
-    // for each shape run database query and create shape
-    // shapeMap.put(shapeKey, shape);
-    // for example, we are adding three shapes
-
     public static void loadCache() {
         Analog analog = new Analog();
         analog.setId("1");
